@@ -1,0 +1,254 @@
+@import './node_modules/sal.js/dist/sal.css';
+
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding:0;
+}
+
+/***** Top menu *****/
+ 
+.navbar {
+    background: transparent;
+    
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+    
+}
+ 
+/*
+.navbar.navbar-no-bg {
+    background: #444;
+    background: rgba(0, 0, 0, 0.2);
+}
+*/
+ 
+/*
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+}
+*/
+ 
+/*
+.navbar-dark .navbar-nav .nav-link {
+    color: red;
+}
+*/
+ 
+/*
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red;
+}
+*/
+ 
+/*
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: red;
+}
+*/
+ 
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+ 
+.navbar-brand {
+    width: 105px;
+    background: url(../img/logo_small.png) left center no-repeat;
+    border: 0;
+    text-indent: -99999px;
+}
+
+/*
+.li-nav-item {
+        border: 2px solid red;
+}
+*/
+
+#navbarNav > ul > div > div > li > a, i, h1 {
+    color: #302B2A;
+}
+
+#navbarNav > ul > div > div > li > a:hover{
+    color: white;
+}
+
+#navbarNav > ul > div > div.card-body:hover{
+    
+    background: #302B2A;
+    textcolor: white;
+
+}
+
+a.btn {
+    color: #302B2A;
+}
+
+a.btn:hover {
+    background-color: #302B2A;
+}
+
+#social-section > a >i {
+    padding: 10px;
+}
+#social-section > a >i:hover {
+        color: white;
+}
+
+.mainphoto {
+    height: 100vh;
+background-image: url(../img/HOME7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.fullsection {
+    height: 100vh;
+    margin-top: 25vh;
+}
+
+.fullcarousel {
+    margin: 10vh; 
+}
+
+.carousel-item img {
+    width: 30%;
+    height: 30%;
+  }
+
+#posters-section {
+background-image: url(../img/posters-section2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+}
+
+#wallpapers-section {
+background-image: url(../img/Wallpapers-main4.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment:fixed;
+}
+
+.half-section   {
+        height: 50vh;
+}
+
+img.featured {
+    height: 90px;
+    width: 90px;
+    }
+
+h2 {
+        font-family: 'Amatic SC', cursive;
+}
+
+a.btn, div.card {
+font-family: 'Oswald', sans-serif;
+font-family: 'Catamaran', sans-serif;
+/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
+
+}
+
+#o-section {
+    background-image: url(../img/tamiza6.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+
+
+}
+
+#arch-section {
+    background-image: url(../img/omaptu2.jpg);
+    background-repeat: no-repeat;
+
+}
+
+#contest-section {
+       background-image: url(../img/konkurs.jpg);
+    background-repeat: no-repeat;
+        background-position: center;
+
+
+}
+
+#int-section {
+          background-image: url(../img/swiat6.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+#b2b-section{
+            background-image: url(../img/wspolpraca4.jpg);
+    background-repeat: no-repeat;
+}
+
+#b2b-sectionb{
+            background-image: url(../img/wspolpraca4b.jpg);
+    background-repeat: no-repeat;
+}
+
+img {
+    filter: saturate(70%);
+
+}
+
+section.animation {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+img.samolot {
+    position: absolute;
+    opacity:0.3;
+    width: 100px;
+    top: 50%;
+    left: 0%;
+}
+
+div.animation-div {
+position: absolute;
+        transform: translateY(100vh);
+    z-index: 999;
+}
+
+div.animation-icons {
+    height: 200vh;
+/*    background-color: aqua;*/
+}
+
+img.img-animated {
+    width: 30px;
+    margin: 3vh;
+}
+
+img.img-animated2 {
+    width: 20px;
+    margin: 8vh;
+}
+
+img.img-animated3 {
+    width: 12px;
+    margin: 13vh;
+}
+
+#photo-left-section {
+    transform: translateY(-20vh);
+}
+
+
+#photo-center-bottom {
+    transform: translateY(-15vh);
+}
