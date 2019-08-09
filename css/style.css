@@ -20,39 +20,7 @@ body {
     backface-visibility: hidden;
     
 }
- 
-/*
-.navbar.navbar-no-bg {
-    background: #444;
-    background: rgba(0, 0, 0, 0.2);
-}
-*/
- 
-/*
-.navbar-dark .navbar-nav {
-    font-size: 15px;
-    color: black;
-    text-transform: uppercase;
-}
-*/
- 
-/*
-.navbar-dark .navbar-nav .nav-link {
-    color: red;
-}
-*/
- 
-/*
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: red;
-}
-*/
- 
-/*
-.navbar-dark .navbar-nav .nav-link:focus {
-    color: red;
-}
-*/
+
  
 .navbar-expand-md .navbar-nav .nav-link {
     padding-left: 1rem;
@@ -76,14 +44,6 @@ body {
     color: #302B2A;
 }
 
-#navbarNav > ul > div > div > li > a:hover{
-    color: white;
-}
-
-#navbarNav > ul > div > div.card-body:hover{
-    
-    background: #302B2A;
-    textcolor: white;
 
 }
 
